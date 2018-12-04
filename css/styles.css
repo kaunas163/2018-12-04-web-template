@@ -3,6 +3,11 @@
     border-color: #00b1f5;
 }
 
+.btn-secondary {
+    background: #08237e;
+    border-color: #08237e;
+}
+
 .contacts-row {
     background: #f6fbfe;
     padding: 0.8em 0;
@@ -157,4 +162,118 @@ nav form .search-button {
 
 nav form .search-button:hover {
     color: #00b1f5;
+}
+
+#mainPageCarousel {
+    height: 70vh;
+    min-height: 500px;
+    background: black;
+}
+
+#mainPageCarousel .carousel-inner,
+#mainPageCarousel .carousel-item,
+#mainPageCarousel .carousel-item img {
+    height: 100%;
+}
+
+#mainPageCarousel .carousel-item img {
+    object-fit: cover;
+    opacity: 0.6;
+}
+
+#mainPageCarousel span[class*="carousel-control"] {
+    background: none;
+    font-size: 1.5em;
+}
+
+#mainPageCarousel .carousel-caption {
+    text-align: left;
+    top: 50%;
+    bottom: auto;
+    transform: translateY(-50%);
+    border-left: 2px solid #00b1f5;
+    padding-left: 2em;
+}
+
+#mainPageCarousel .carousel-caption h5 {
+    font-size: 2em;
+    margin-bottom: 0;
+}
+
+#mainPageCarousel .carousel-caption h4 {
+    font-size: 3em;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 1em;
+}
+
+#mainPageCarousel .carousel-caption a {
+    color: white;
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 1.2em;
+}
+
+.section {
+    padding: 7em 0;
+}
+
+.info-block p.leading-text {
+    color: #00b1f5;
+    text-transform: uppercase;
+    font-size: 0.8em;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.info-block h4 {
+    font-size: 2.5em;
+    font-weight: 600;
+    letter-spacing: 1px;
+    line-height: 1.3em;
+    color: #06114f;
+}
+
+.info-block .info-text {
+    font-size: 1.1em;
+    line-height: 1.75em;
+    opacity: 0.9;
+}
+
+.info-block .btn {
+    margin-right: 1em;
+    font-weight: bold;
+    font-size: 1.1em;
+    padding: 0.6em 1.5em;
+}
+
+.info-block .btn.quatation-button .fa-file {
+    margin-right: 3px;
+}
+
+.about-us {
+    background: #f6fbfe;
+}
+
+.about-us .fas,
+.about-us .far {
+    font-size: 2.7em;
+    color: #00b1f5;
+}
+
+.about-us h3 {
+    font-weight: bold;
+    color: #001446;
+    margin: 0 0 0.8em;
+}
+
+.about-us p {
+    line-height: 1.75em;
+}
+
+.about-us a {
+    color: #00b1f5;
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 0.9em;
 }

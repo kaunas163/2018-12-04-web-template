@@ -70,6 +70,10 @@
     margin-bottom: 0;
 }
 
+.logo-row .contacts-info-col .contact-info {
+    margin-bottom: 0;
+}
+
 .logo-row .contacts-info-col .contact-info a {
     color: #001446;
     text-decoration: none;

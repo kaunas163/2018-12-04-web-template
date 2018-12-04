@@ -87,3 +87,43 @@
 .logo-row .contacts-info-col .quatation-button .fa-file {
     margin-right: 3px;
 }
+
+nav {
+    background: #08237e;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 1em;
+    display: inline-block;
+    transition: 0.3s all;
+}
+
+nav ul li a:hover {
+    text-decoration: none;
+    color: white;
+    background: #00b1f5;
+}
+
+nav ul li a.active {
+    background: #00b1f5;
+}
+
+nav form .form-control {
+    background: #001446;
+    border: none;
+    border-radius: 0;
+    padding: 1em;
+    display: block;
+}

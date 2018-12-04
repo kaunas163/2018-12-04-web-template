@@ -1,5 +1,11 @@
 .contacts-row {
     background: #f6fbfe;
+    padding: 0.8em 0;
+}
+
+.contacts-row ul {
+    padding-left: 0;
+    margin-bottom: 0;
 }
 
 .contacts-row li {
@@ -11,4 +17,39 @@
     text-decoration: underline;
     font-size: 0.75em;
     text-transform: capitalize;
+}
+
+.contacts-row .row > div:first-child > ul > li {
+    margin-right: 1em;
+}
+
+.contacts-row .row > div:last-child > ul > li {
+    margin-left: 1em;
+}
+
+.contacts-row .language-dropdown a {
+    text-decoration: none;
+}
+
+.contacts-row .language-dropdown .fa-caret-down {
+    color: #00b1f5;
+}
+
+.contacts-row .language-dropdown {
+    position: relative;
+}
+
+.contacts-row .language-dropdown:hover > ul {
+    display: block;
+    text-align: center;
+}
+
+.contacts-row .language-dropdown > ul {
+    position: absolute;
+    padding: 1em;
+    background: #f6fbfe;
+    left: 50%;
+    top: 100%;
+    transform: translateX(-50%);
+    display: none;
 }

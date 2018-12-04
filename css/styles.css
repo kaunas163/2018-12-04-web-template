@@ -124,10 +124,19 @@ nav ul li a.active {
     background: #00b1f5;
 }
 
+nav form .form-group {
+    margin-bottom: 0;
+}
+
 nav form .form-control {
     background: #001446;
     border: none;
     border-radius: 0;
-    padding: 1em;
+    padding: 1em 2em;
     display: block;
+    height: 100%;
+}
+
+nav form .form-control::placeholder {
+    color: white;
 }

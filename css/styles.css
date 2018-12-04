@@ -1,3 +1,8 @@
+.btn-primary {
+    background: #00b1f5;
+    border-color: #00b1f5;
+}
+
 .contacts-row {
     background: #f6fbfe;
     padding: 0.8em 0;
@@ -52,4 +57,33 @@
     top: 100%;
     transform: translateX(-50%);
     display: none;
+}
+
+.logo-row {
+    padding: 2em 0;
+}
+
+.logo-row .contacts-info-col .pre-info {
+    color: #00b1f5;
+    font-weight: bold;
+    font-size: 0.75em;
+    margin-bottom: 0;
+}
+
+.logo-row .contacts-info-col .contact-info a {
+    color: #001446;
+    text-decoration: none;
+}
+
+.logo-row .contacts-info-col .contact-info.email a {
+    text-decoration: underline;
+}
+
+.logo-row .contacts-info-col .quatation-button {
+    font-weight: bold;
+    font-size: 1.05em;
+}
+
+.logo-row .contacts-info-col .quatation-button .fa-file {
+    margin-right: 3px;
 }

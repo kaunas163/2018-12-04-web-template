@@ -85,7 +85,7 @@
 
 .logo-row .contacts-info-col .quatation-button {
     font-weight: bold;
-    font-size: 1.05em;
+    font-size: 0.9em;
 }
 
 .logo-row .contacts-info-col .quatation-button .fa-file {
@@ -126,6 +126,7 @@ nav ul li a.active {
 
 nav form .form-group {
     margin-bottom: 0;
+    position: relative;
 }
 
 nav form .form-control {
@@ -139,4 +140,21 @@ nav form .form-control {
 
 nav form .form-control::placeholder {
     color: white;
+}
+
+nav form .form-control:focus {
+    background: #001446;
+}
+
+nav form .search-button {
+    position: absolute;
+    right: 2em;
+    top: 50%;
+    transform: translateY(-50%);
+    color: white;
+    transition: 0.3s all;
+}
+
+nav form .search-button:hover {
+    color: #00b1f5;
 }

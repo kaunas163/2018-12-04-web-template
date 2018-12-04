@@ -1,3 +1,14 @@
 .contacts-row {
     background: #f6fbfe;
 }
+
+.contacts-row li {
+    display: inline;
+}
+
+.contacts-row li a {
+    color: #001446;
+    text-decoration: underline;
+    font-size: 0.75em;
+    text-transform: capitalize;
+}

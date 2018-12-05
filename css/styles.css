@@ -149,6 +149,7 @@ nav form .form-control::placeholder {
 
 nav form .form-control:focus {
     background: #001446;
+    color: white;
 }
 
 nav form .search-button {

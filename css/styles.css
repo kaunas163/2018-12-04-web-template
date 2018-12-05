@@ -277,3 +277,188 @@ nav form .search-button:hover {
     font-weight: bold;
     font-size: 0.9em;
 }
+
+.general-section h3 {
+    font-weight: bold;
+    color: #00154f;
+    font-size: 2.5em;
+}
+
+.general-section .container > .row:first-child {
+    text-align: center;
+}
+
+.general-section .divider {
+    margin: 1.5em 0;
+}
+
+.services .services-blocks {
+    margin-top: 2.5em;
+    margin-bottom: 2.5em;
+}
+
+.services .services-blocks > div img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    transition: 0.5s all;
+}
+
+.services .services-blocks > div {
+    position: relative;
+    padding: 1px;
+    overflow: hidden;
+}
+
+.services .services-blocks > div .overlay {
+    background: #08237e;
+    position: absolute;
+    left: 1px;
+    top: 0;
+    right: 1px;
+    bottom: 0;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+    transition: 0.5s all;
+}
+
+.services .services-blocks > div .overlay h4 {
+    font-weight: bold;
+    margin-bottom: 0.9em;
+}
+
+.services .services-blocks > div .overlay .fas,
+.services .services-blocks > div .overlay .far {
+    font-size: 2em;
+    margin-bottom: 1em;
+    color: #00b1f5;
+}
+
+.services .services-blocks > div:hover .overlay {
+    opacity: 0;
+}
+
+.services .services-blocks > div:hover img {
+    transform: scale(1.1);
+}
+
+.services .services-blocks > div:hover:after {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Font Awesome 5 Free";
+    content: "\f00e";
+    font-size: 2em;
+    color: white;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    font-weight: bold;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.3);
+    top: 0;
+    right: 1px;
+    left: 1px;
+    bottom: 0;
+}
+
+.services .arrows {
+    text-align: center;
+}
+
+.services .arrows a {
+    font-size: 1.5em;
+    color: #08237e;
+    margin: 0 5px;
+}
+
+.section.with-backgroud-image {
+    text-align: center;
+    color: white;
+}
+
+.section.with-backgroud-image h4 {
+    font-size: 2em;
+    margin-bottom: 0;
+    font-weight: 300;
+}
+
+.section.with-backgroud-image h3 {
+    font-size: 3.5em;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.section.with-backgroud-image p {
+    margin: 1em 0 2em;
+}
+
+.help-manage-changes {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+                url("../images/pexels-photo-450035.jpeg");
+    background-position: center;
+    background-size: cover;
+}
+
+.recent-cases {
+    background: #08237e;
+}
+
+.recent-cases .container > .row > div:first-child,
+.recent-cases .container > .row > div:first-child a {
+    color: white;
+}
+
+.recent-cases h3 {
+    font-weight: bold;
+    font-size: 2.5em;
+}
+
+.recent-cases .divider {
+    margin: 1em 0;
+}
+
+.recent-cases .slider {
+    background: white;
+    height: 300px;
+    box-shadow: 5px 5px 12px rgba(0, 0, 0, 0.25);
+}
+
+.recent-cases .slider img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.recent-cases .info-col {
+    padding: 2em 1em;
+}
+
+.recent-cases .info-col h5 {
+    font-size: 1.25em;
+    margin-bottom: 0.8em;
+}
+
+.recent-cases .info-col .leading-text {
+    color: #00b1f5;
+    font-size: 0.9em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.recent-cases .info-col a {
+    color: #00b1f5;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.recent-cases .info-col a i {
+    text-decoration: underline;
+}
